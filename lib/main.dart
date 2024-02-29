@@ -22,8 +22,9 @@ void main() async {
             debugShowCheckedModeBanner: false,
             title: 'My Library',
             theme: ThemeData(
-              primarySwatch: Colors.orange,
-            ),
+                primarySwatch: Colors.orange,
+                appBarTheme: const AppBarTheme()
+                    .copyWith(backgroundColor: Colors.orange, elevation: 8)),
             home: const MyApp());
       },
     ),
