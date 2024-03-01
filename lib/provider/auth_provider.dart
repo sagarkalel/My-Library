@@ -5,9 +5,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:my_library/model/user_provider.dart';
-import 'package:my_library/phone_auth/otp_screen.dart';
-import 'package:my_library/styles/components.dart';
+import 'package:my_library/screens/phone_auth/otp_screen.dart';
 import 'package:my_library/utils/utils.dart';
+import 'package:my_library/widgets/components.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class MyAuthProvider extends ChangeNotifier {

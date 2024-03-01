@@ -1,24 +1,25 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_library/styles/components.dart';
+import 'package:my_library/screens/add_books/qr_generator_screen.dart';
+import 'package:my_library/utils/styles.dart';
+import 'package:my_library/widgets/components.dart';
 import 'package:provider/provider.dart';
-
-import '../../add_books/qr_generator_screen.dart';
-import '../../all_users/issued_books_by_all_users.dart';
+import '../all_users/issued_books_by_all_users.dart';
 import '../../firebase_functions/book_collection.dart';
 import '../../model/user_provider.dart';
 import '../../provider/auth_provider.dart';
-import '../../qr_scanner/qr_scanner_screen.dart';
+import '../qr_scanner/qr_scanner_screen.dart';
 import '../../shimmer_loadings/home_books_shimmer.dart';
 import '../../shimmer_loadings/home_user_card_shimmer.dart';
-import '../../styles/styles.dart';
 import '../../utils/utils.dart';
-import '../../view_all_books/view_all_books.dart';
-import '../../view_all_books/view_book_from_home.dart';
-import '../../view_all_users/view_all_users.dart';
-import '../../view_all_users/view_user.dart';
+import '../view_all_books/view_all_books.dart';
+import '../view_all_books/view_book_from_home.dart';
+import '../view_all_users/view_all_users.dart';
+import '../view_all_users/view_user.dart';
 import 'all_books_user.dart';
 import 'drawer.dart';
 
@@ -28,6 +29,7 @@ class HomePage extends StatefulWidget {
     Key? key,
   }) : super(key: key);
 
+  @override
   State<HomePage> createState() => StateHomePage();
 }
 

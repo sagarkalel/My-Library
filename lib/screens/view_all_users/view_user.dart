@@ -3,8 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:intl/intl.dart';
 import 'package:my_library/provider/sub_book_provider.dart';
 import 'package:my_library/shimmer_loadings/home_books_shimmer.dart';
-import 'package:my_library/styles/components.dart';
-import '../styles/styles.dart';
+import 'package:my_library/utils/styles.dart';
+import 'package:my_library/widgets/components.dart';
 import 'view_user_subbook.dart';
 
 class ViewUser extends StatefulWidget {

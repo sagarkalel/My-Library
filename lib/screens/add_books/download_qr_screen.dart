@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:my_library/screens/home_page/home_page.dart';
+import 'package:my_library/utils/styles.dart';
+import 'package:my_library/widgets/components.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:screenshot/screenshot.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_library/styles/components.dart';
 import 'package:my_library/utils/utils.dart';
 import 'package:qr_flutter/qr_flutter.dart';
-import '../styles/styles.dart';
 
 class DownloadQrScreen extends StatefulWidget {
   const DownloadQrScreen({

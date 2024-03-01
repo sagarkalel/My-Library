@@ -1,16 +1,14 @@
 import 'dart:async';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-// import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-// import 'package:my_library/provider/auth_provider.dart';
 import 'package:my_library/provider/auth_provider.dart';
-import 'package:my_library/styles/components.dart';
-import 'package:my_library/styles/styles.dart';
+import 'package:my_library/utils/styles.dart';
+import 'package:my_library/widgets/components.dart';
 import 'package:provider/provider.dart';
-import '../utils/utils.dart';
+import '../../utils/utils.dart';
 import 'phone_num_input_container.dart';
 
 class PhoneAuthPage extends StatefulWidget {

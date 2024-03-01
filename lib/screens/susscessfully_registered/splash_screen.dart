@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:my_library/screens/home_page/home_page.dart';
 import 'package:my_library/screens/welcome_screen/welcome.dart';
+import 'package:my_library/widgets/components.dart';
 import 'package:provider/provider.dart';
-import '../provider/auth_provider.dart';
-import '../styles/components.dart';
+import '../../provider/auth_provider.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({

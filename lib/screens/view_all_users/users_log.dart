@@ -2,10 +2,10 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_library/styles/components.dart';
-import '../model/user_provider.dart';
-import '../provider/sub_book_provider.dart';
-import '../styles/styles.dart';
+import 'package:my_library/utils/styles.dart';
+import 'package:my_library/widgets/components.dart';
+import '../../model/user_provider.dart';
+import '../../provider/sub_book_provider.dart';
 
 class UsersLog extends StatefulWidget {
   const UsersLog({

@@ -2,9 +2,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_library/styles/styles.dart';
-
-import '../provider/sub_book_provider.dart';
+import 'package:my_library/utils/styles.dart';
+import '../../provider/sub_book_provider.dart';
 
 class BookIssuedAllUsers extends StatefulWidget {
   const BookIssuedAllUsers({
@@ -80,7 +79,7 @@ class _BookIssuedAllUsersState extends State<BookIssuedAllUsers> {
                 height: 8.h,
               ),
               Container(
-                height: 110.h,
+                height: 95.h,
                 width: 90.w,
                 decoration: BoxDecoration(
                   color: Colors.orange.shade50,

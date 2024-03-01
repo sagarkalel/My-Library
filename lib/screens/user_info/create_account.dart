@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:my_library/model/user_provider.dart';
 import 'package:my_library/provider/auth_provider.dart';
-import 'package:my_library/styles/components.dart';
-import 'package:my_library/styles/styles.dart';
-import 'package:my_library/susscessfully_registered/successfully_registered.dart';
+import 'package:my_library/screens/susscessfully_registered/successfully_registered.dart';
+import 'package:my_library/utils/styles.dart';
 import 'package:my_library/utils/utils.dart';
+import 'package:my_library/widgets/components.dart';
 import 'package:provider/provider.dart';
 
 class CreateAccountScren extends StatefulWidget {
@@ -186,6 +186,7 @@ class _CreateAccountScrenState extends State<CreateAccountScren> {
 
                                 if (connectivityResult ==
                                     ConnectivityResult.none) {
+                                  // ignore: use_build_context_synchronously
                                   showSnackBar(context,
                                       "Please check your interent connection!");
                                 } else {

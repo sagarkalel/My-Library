@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:my_library/app_state/app_state.dart';
+import 'package:my_library/utils/styles.dart';
 import 'package:my_library/utils/utils.dart';
+import 'package:my_library/widgets/components.dart';
 import 'package:provider/provider.dart';
 import '../../provider/auth_provider.dart';
 import '../../provider/sub_book_provider.dart';
-import '../../styles/components.dart';
-import '../../styles/styles.dart';
 import 'issued_books.dart';
 
 class UserProfileCard extends StatefulWidget {

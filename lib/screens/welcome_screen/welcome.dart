@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_library/phone_auth/phone_auth_page.dart';
-import 'package:my_library/styles/components.dart';
-import 'package:my_library/styles/styles.dart';
+import 'package:my_library/screens/phone_auth/phone_auth_page.dart';
+import 'package:my_library/utils/styles.dart';
+import 'package:my_library/widgets/components.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});

@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:my_library/shimmer_loadings/home_books_shimmer.dart';
-import 'package:my_library/styles/components.dart';
-import 'package:my_library/view_all_users/view_user.dart';
-
+import 'package:my_library/screens/view_all_users/view_user.dart';
+import 'package:my_library/utils/styles.dart';
+import 'package:my_library/widgets/components.dart';
 import '../all_users/from_book_users_info.dart';
-import '../model/user_provider.dart';
-import '../styles/styles.dart';
+import '../../model/user_provider.dart';
 
 class ViewAllUsers extends StatefulWidget {
   const ViewAllUsers({super.key});

@@ -2,12 +2,11 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:my_library/provider/book_provider.dart';
-import 'package:my_library/qr_scanner/view_qr_scanner_data.dart';
-import 'package:my_library/styles/components.dart';
+import 'package:my_library/screens/qr_scanner/view_qr_scanner_data.dart';
+import 'package:my_library/utils/styles.dart';
 import 'package:my_library/utils/utils.dart';
+import 'package:my_library/widgets/components.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
-
-import '../styles/styles.dart';
 
 class QrScanner extends StatefulWidget {
   const QrScanner({super.key});

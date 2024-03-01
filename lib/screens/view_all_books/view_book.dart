@@ -6,11 +6,11 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:my_library/provider/book_provider.dart';
 import 'package:my_library/provider/sub_book_provider.dart';
 import 'package:my_library/screens/home_page/home_page.dart';
-import 'package:my_library/styles/components.dart';
+import 'package:my_library/utils/styles.dart';
 import 'package:my_library/utils/utils.dart';
+import 'package:my_library/widgets/components.dart';
 import 'package:provider/provider.dart';
-import '../provider/auth_provider.dart';
-import '../styles/styles.dart';
+import '../../provider/auth_provider.dart';
 
 class Viewbook extends StatefulWidget {
   const Viewbook({

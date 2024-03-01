@@ -3,10 +3,10 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:my_library/screens/home_page/home_page.dart';
-import '../styles/components.dart';
+import 'package:my_library/widgets/components.dart';
 
 class Registered extends StatefulWidget {
-  const Registered({Key? key});
+  const Registered({super.key});
 
   @override
   State<Registered> createState() => _RegisteredState();

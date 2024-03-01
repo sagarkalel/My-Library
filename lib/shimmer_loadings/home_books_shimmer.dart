@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:my_library/shimmer_loadings/shimmer.dart';
-import 'package:my_library/styles/components.dart';
+import 'package:my_library/widgets/components.dart';
 
 class HomeBooksShimmer extends StatelessWidget {
   const HomeBooksShimmer({

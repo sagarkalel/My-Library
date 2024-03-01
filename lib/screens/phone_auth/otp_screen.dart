@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'dart:async';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -5,12 +7,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:my_library/provider/auth_provider.dart';
-import 'package:my_library/styles/components.dart';
-import 'package:my_library/susscessfully_registered/successfully_registered.dart';
+import 'package:my_library/screens/susscessfully_registered/successfully_registered.dart';
+import 'package:my_library/screens/user_info/create_account.dart';
+import 'package:my_library/utils/styles.dart';
+import 'package:my_library/widgets/components.dart';
 import 'package:provider/provider.dart';
-import '../styles/styles.dart';
-import '../user_info/create_account.dart';
-import '../utils/utils.dart';
+import '../../utils/utils.dart';
 import 'pincode_otp.dart';
 
 class OtpScreen extends StatefulWidget {

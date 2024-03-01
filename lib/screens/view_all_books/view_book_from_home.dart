@@ -6,15 +6,15 @@ import 'package:intl/intl.dart';
 import 'package:my_library/provider/sub_book_provider.dart';
 import 'package:my_library/screens/home_page/home_page.dart';
 import 'package:my_library/shimmer_loadings/view_books_shimmer.dart';
-import 'package:my_library/view_all_users/users_log.dart';
+import 'package:my_library/screens/view_all_users/users_log.dart';
+import 'package:my_library/utils/styles.dart';
+import 'package:my_library/widgets/components.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:screenshot/screenshot.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_library/styles/components.dart';
 import 'package:my_library/utils/utils.dart';
 import 'package:qr_flutter/qr_flutter.dart';
-import '../styles/styles.dart';
 
 class ViewbookFromHome extends StatefulWidget {
   const ViewbookFromHome({

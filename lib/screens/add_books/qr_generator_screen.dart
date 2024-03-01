@@ -3,10 +3,9 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:my_library/model/book_model.dart';
 import 'package:my_library/provider/book_provider.dart';
-import 'package:my_library/styles/components.dart';
-import 'package:my_library/styles/styles.dart';
+import 'package:my_library/utils/styles.dart';
 import 'package:my_library/utils/utils.dart';
-
+import 'package:my_library/widgets/components.dart';
 import '../add_books/download_qr_screen.dart';
 
 class QrGenerator extends StatefulWidget {

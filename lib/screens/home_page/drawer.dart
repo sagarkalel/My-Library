@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:my_library/screens/home_page/user_profile_card.dart';
 import 'package:my_library/provider/auth_provider.dart';
-import 'package:my_library/styles/components.dart';
-import 'package:my_library/susscessfully_registered/splash_screen.dart';
+import 'package:my_library/screens/susscessfully_registered/splash_screen.dart';
+import 'package:my_library/widgets/components.dart';
 import 'package:provider/provider.dart';
 
 class MenuDrawer extends StatelessWidget {

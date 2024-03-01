@@ -2,12 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:my_library/provider/book_provider.dart';
 import 'package:my_library/shimmer_loadings/home_books_shimmer.dart';
+import 'package:my_library/utils/styles.dart';
+import 'package:my_library/widgets/components.dart';
 import 'package:provider/provider.dart';
-
-import '../screens/home_page/all_books_user.dart';
-import '../provider/auth_provider.dart';
-import '../styles/components.dart';
-import '../styles/styles.dart';
+import '../home_page/all_books_user.dart';
+import '../../provider/auth_provider.dart';
 import 'view_book_from_home.dart';
 
 class ViewAllBooks extends StatefulWidget {
